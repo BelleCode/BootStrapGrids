@@ -61,18 +61,29 @@
         </div>
     </nav>
 
+    <!-- Main -->
     <main class="flex-shrink-0">
         <div class="container h-100 minHeight mb-5">
-            <h1 >Grid One</h1>
-            <div class="row border border-3 border-danger h-100">
-                <div class="col"> COL One</div>
-                <div class="col bg-dark text-white"> COL Two</div>
+            <h1>Grid One</h1>
+            <div class="row row-cols-1 row-cols-md-3 h-100 gy-1">
+                <div class="col col-md-6">
+                    <div class="p-3 h-100 bg-secondary">
+                        <h5>COL One</h5>
+                    </div>
+                </div>
+                <div class="col col-md-6">
+                    <div class="p-3 h-100 bg-dark text-light">
+                        <h5>COL Two</h5>
+                    </div>
+                </div>
             </div>
         </div>
     </main>
+    
+    <!-- Footer -->
     <footer class="footer mt-auto py-3 bg-light sticky-footer">
         <div class="container-fluid text-center">
-            <span class="text-muted">Place sticky footer content here.</span>
+            <span class="text-muted">&copy; &nbsp; 2021 Belinda Tiberio</span>
         </div>
     </footer>
     

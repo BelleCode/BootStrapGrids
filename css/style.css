@@ -3,6 +3,10 @@ main>.container {
     margin-bottom: 5rem;
 }
 
+body>main {
+    margin-bottom: 60px;
+}
+
 .sticky-nav {
     position: fixed;
     left: 0;
@@ -18,15 +22,14 @@ main>.container {
     font-family: modesto-open-shadow, sans-serif;
     font-weight: 500;
     font-style: normal;
-    color: rgb(255,255,0);
+    color: rgb(255, 255, 0);
 }
 
-.bgImage{
-    width:100%;
+.bgImage {
+    width: 100%;
     background: url("/img/GridBG.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
 }
-
