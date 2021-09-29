@@ -13,7 +13,7 @@ html {
     /* Set the fixed height of the footer here */
     height: 60px;
     line-height: 60px; /* Vertically center the text there */
-    background-color: #f5f5f5;
+    background-color: black;
   }
   
   .homeBG{
@@ -30,7 +30,7 @@ html {
   -------------------------------------------------- */
   /* Not required for template or sticky footer method. */
   
-  body> main > .container {
+main > .container {
     padding: 60px 15px 0px;
     border: solid;
   }

@@ -64,50 +64,31 @@
         </div>
     </nav>
 
+    <!-- Main -->
     <main class="flex-shrink-0">
-        <div class="container">
-            <h1 class="mt-5">Template with dark fixed navbar and sticky footer</h1>
-            <p class="lead">Pin a footer to the bottom of the viewport in desktop browsers with this custom HTML and
-                CSS. A fixed navbar has been added with padding-top: 60px; on the main > .container.</p>
+        <div class="container-fluid minHeight h-100 mb-5">
+            <h1 class="mt-5">Grid Seven</h1>
+            <!-- Top Row -->
+            <div class="row h-100 row-cols-1 gy-2">
+                <div class="col col-md-12">
+                    <div class="bg-secondary h-100 text-light">COL One</div>
+                </div>
+                <div class="col col-md-6 order-md-last">
+                    <div class="bg-dark h-100 text-light">COL Three-Check it!</div>
+                </div>
+                <div class="col col-md-6">
+                    <div class="bg-secondary h-100 text-light">COL Two</div>
+                </div>
+            </div>
         </div>
     </main>
 
-    <!-- ==== Footer ==== -->
-    <footer class="ooter mt-auto py-3 bg-dark sticky-footer">
-        <div class="container-fluid">
-            <div class="row row-cols-1 row-cols-lg-3 gy-2">
-                <!-- footer left -->
-                <div class="col order-last order-lg-first text-light">
-                    <div><span class="text=muted">&copy;2021</span> Belinda Tiberio | careers@belindatiberio.com
-                    </div>
-                </div>
-                <!-- center footer -->
-                <div class="col d-flex align-items-center justify-content-start justify-content-lg-center"><img
-                        src="/img/fullNameCrop/Black Background - Name - Crop.png" alt="Belinda Tiberio" height="40">
-                </div>
-                <!-- right footer - logos -->
-                <div class="col d-flex align-items-center justify-content-start justify-content-lg-end">
-                    <div class="row">
-                        <div class="col social">
-                            <a href="https://www.linkedin.com/in/btiberio/" target="_blank">
-                                <i class="fab fa-linkedin fa-2x"></i>
-                            </a>
-                        </div>
-                        <div class="col social">
-                            <a href="https://github.com/BelleCode/" target="_blank">
-                                <i class="fab fa-github fa-2x"></i>
-                            </a>
-                        </div>
-                        <div class="col social"><a href="#" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
-                        </div>
-                        <div class="col social"><a href="#" target="_blank"><i class="fab fa-youtube fa-2x"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </footer>
+     <!-- Footer -->
+     <footer class="footer mt-auto py-3 bg-light sticky-footer">
+         <div class="container-fluid text-center">
+             <span class="text-muted">&copy;2021 &nbsp; Belinda Tiberio</span>
+         </div>
+     </footer>
 
     <!-- Bootstrap JS -->
    
